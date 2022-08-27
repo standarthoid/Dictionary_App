@@ -26,7 +26,7 @@ export default function Dictionary() {
           className="input-search"
           onChange={handleKeywordChange}
         />
-        <button type="button" className="btn button-search">
+        <button type="button" className="btn button-search" onClick={search}>
           Search
         </button>
       </form>

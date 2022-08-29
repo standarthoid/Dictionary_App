@@ -1,6 +1,6 @@
 import React from "react";
 export default function Synonyms(props) {
-  if (props.synonyms > 0) {
+  if (props.synonyms && props.synonyms.length > 0) {
     return (
       <div className="synonyms">
         <h4>Synonyms:</h4>

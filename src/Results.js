@@ -15,7 +15,7 @@ export default function Results(props) {
             </div>
           );
         })}
-        <Synonyms synonyms={props.results.meanings} />
+        <Synonyms synonyms={props.results.meanings[0].synonyms} />
       </div>
     );
   } else {

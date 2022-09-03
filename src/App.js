@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "./logoHankemacht.png";
 import "./App.css";
 import Dictionary from "./Dictionary.js";

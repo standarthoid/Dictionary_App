@@ -1,0 +1,23 @@
+.List {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.synonyms {
+  background: rgba(158, 157, 206, 0.7);
+  max-width: 90%;
+  border-radius: 16px !important;
+  color: white;
+}
+.synonym {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 0 10px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SynonymsHeading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}

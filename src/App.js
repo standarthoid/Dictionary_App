@@ -1,21 +1,22 @@
 import React from "react";
-import logo from "./logoHankemacht.png";
+import dictionary from "./dictionary.svg";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={dictionary} className="App-logo" alt="logo" />
+        <h1 className="Dictionary-Header">Dictionary</h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="banana" />
       </main>
       <footer className="text-center">
         {" "}
         <div>
           {" "}
-          <div>
+          <div className="Footer">
             <p className="myName">
               <a
                 className="openSource"
@@ -23,7 +24,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Coded by
+                Coded
               </a>{" "}
               by{" "}
               <a

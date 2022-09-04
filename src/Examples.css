@@ -1,0 +1,15 @@
+.headerExample {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(206, 154, 191, 1);
+  font-style: italic;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.Example {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgba(206, 154, 191, 1);
+  margin-bottom: 20px;
+}

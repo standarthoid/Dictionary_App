@@ -6,3 +6,17 @@
 .App-header {
   margin: 30px 0;
 }
+.Dictionary-Header {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: rgba(183, 152, 199, 1);
+}
+.Footer {
+  color: rgba(183, 152, 199, 1);
+  font-family: "Courier New", Courier, monospace;
+}
+.Footer a {
+  color: rgba(183, 152, 199, 1);
+  font-weight: 600;
+}
